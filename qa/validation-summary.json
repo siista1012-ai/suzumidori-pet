@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "format": "WEBP",
+  "mode": "RGBA",
+  "width": 1536,
+  "height": 1872,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "transparentRgbResiduePixels": 0,
+  "errors": [],
+  "warnings": [],
+  "visualQa": "pass"
+}
