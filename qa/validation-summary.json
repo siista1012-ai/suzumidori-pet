@@ -20,5 +20,6 @@
   "transparentRgbResiduePixels": 0,
   "errors": [],
   "warnings": [],
-  "visualQa": "pass"
+  "visualQa": "pass",
+  "cleanup": "magenta edge despill and light alpha smoothing, saved as lossless WebP"
 }
