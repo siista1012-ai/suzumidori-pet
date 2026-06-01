@@ -21,5 +21,62 @@
   "errors": [],
   "warnings": [],
   "visualQa": "pass",
-  "cleanup": "scaled sprite content to 88 percent around each frame center for softer cell padding; transparent pixels normalized and saved as exact lossless WebP"
+  "cleanup": "tightened exterior matte by recoloring existing boundary pixels to warm brown, trimming low-alpha pale dust and tiny detached specks, normalizing transparent pixels, and saving as exact lossless WebP",
+  "edgeRefinement": {
+    "idle": {
+      "hard_edge": 3035,
+      "soft_edge": 2238,
+      "trimmed": 3763,
+      "removed_specks": 3
+    },
+    "running-right": {
+      "hard_edge": 3993,
+      "soft_edge": 3462,
+      "trimmed": 5029,
+      "removed_specks": 9
+    },
+    "running-left": {
+      "hard_edge": 4235,
+      "soft_edge": 3023,
+      "trimmed": 5209,
+      "removed_specks": 27
+    },
+    "waving": {
+      "hard_edge": 2108,
+      "soft_edge": 1273,
+      "trimmed": 2531,
+      "removed_specks": 1
+    },
+    "jumping": {
+      "hard_edge": 2305,
+      "soft_edge": 2261,
+      "trimmed": 2875,
+      "removed_specks": 4
+    },
+    "failed": {
+      "hard_edge": 3736,
+      "soft_edge": 2807,
+      "trimmed": 4296,
+      "removed_specks": 7
+    },
+    "waiting": {
+      "hard_edge": 2592,
+      "soft_edge": 920,
+      "trimmed": 2494,
+      "removed_specks": 7
+    },
+    "running": {
+      "hard_edge": 3021,
+      "soft_edge": 1990,
+      "trimmed": 3791,
+      "removed_specks": 4
+    },
+    "review": {
+      "hard_edge": 2992,
+      "soft_edge": 2227,
+      "trimmed": 3798,
+      "removed_specks": 2
+    }
+  },
+  "visualQaNote": "subagent pass: exterior white fringe no longer stands out; brown outline, inner cream areas, and GIF motion are acceptable for pet use"
 }
