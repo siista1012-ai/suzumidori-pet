@@ -1,82 +1,60 @@
 {
   "ok": true,
-  "format": "WEBP",
-  "mode": "RGBA",
-  "width": 1536,
-  "height": 1872,
-  "cellWidth": 192,
-  "cellHeight": 208,
-  "states": [
-    "idle",
-    "running-right",
-    "running-left",
-    "waving",
-    "jumping",
-    "failed",
-    "waiting",
-    "running",
-    "review"
+  "spritesheet": "spritesheet.webp",
+  "size": [
+    1536,
+    1872
   ],
-  "transparentRgbResiduePixels": 0,
-  "errors": [],
-  "warnings": [],
-  "visualQa": "pass",
-  "cleanup": "tightened exterior matte by recoloring existing boundary pixels to warm brown, trimming low-alpha pale dust and tiny detached specks, normalizing transparent pixels, and saving as exact lossless WebP",
-  "edgeRefinement": {
-    "idle": {
-      "hard_edge": 3035,
-      "soft_edge": 2238,
-      "trimmed": 3763,
-      "removed_specks": 3
+  "cell_size": [
+    192,
+    208
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "state": "idle",
+      "frames": 6
     },
-    "running-right": {
-      "hard_edge": 3993,
-      "soft_edge": 3462,
-      "trimmed": 5029,
-      "removed_specks": 9
+    {
+      "index": 1,
+      "state": "running-right",
+      "frames": 8
     },
-    "running-left": {
-      "hard_edge": 4235,
-      "soft_edge": 3023,
-      "trimmed": 5209,
-      "removed_specks": 27
+    {
+      "index": 2,
+      "state": "running-left",
+      "frames": 8
     },
-    "waving": {
-      "hard_edge": 2108,
-      "soft_edge": 1273,
-      "trimmed": 2531,
-      "removed_specks": 1
+    {
+      "index": 3,
+      "state": "waving",
+      "frames": 4
     },
-    "jumping": {
-      "hard_edge": 2305,
-      "soft_edge": 2261,
-      "trimmed": 2875,
-      "removed_specks": 4
+    {
+      "index": 4,
+      "state": "jumping",
+      "frames": 5
     },
-    "failed": {
-      "hard_edge": 3736,
-      "soft_edge": 2807,
-      "trimmed": 4296,
-      "removed_specks": 7
+    {
+      "index": 5,
+      "state": "failed",
+      "frames": 8
     },
-    "waiting": {
-      "hard_edge": 2592,
-      "soft_edge": 920,
-      "trimmed": 2494,
-      "removed_specks": 7
+    {
+      "index": 6,
+      "state": "waiting",
+      "frames": 6
     },
-    "running": {
-      "hard_edge": 3021,
-      "soft_edge": 1990,
-      "trimmed": 3791,
-      "removed_specks": 4
+    {
+      "index": 7,
+      "state": "running",
+      "frames": 6
     },
-    "review": {
-      "hard_edge": 2992,
-      "soft_edge": 2227,
-      "trimmed": 3798,
-      "removed_specks": 2
+    {
+      "index": 8,
+      "state": "review",
+      "frames": 6
     }
-  },
-  "visualQaNote": "subagent pass: exterior white fringe no longer stands out; brown outline, inner cream areas, and GIF motion are acceptable for pet use"
+  ],
+  "note": "Adjusted to a warmer soft-yellow chick palette while preserving geometry and animation frames."
 }
