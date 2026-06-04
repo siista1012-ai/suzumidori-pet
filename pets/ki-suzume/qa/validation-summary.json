@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "pet_id": "ki-suzume",
+  "display_name": "黄すずめ",
+  "spritesheet_webp": "spritesheet.webp",
+  "figma_png": "figma/kisuzume-atlas.png",
+  "size": [
+    1536,
+    1872
+  ],
+  "cell_size": [
+    192,
+    208
+  ],
+  "transparent_rgb_residue_pixels_png": 0,
+  "rows": [
+    {
+      "index": 0,
+      "state": "idle",
+      "frames": 6
+    },
+    {
+      "index": 1,
+      "state": "running-right",
+      "frames": 8
+    },
+    {
+      "index": 2,
+      "state": "running-left",
+      "frames": 8
+    },
+    {
+      "index": 3,
+      "state": "waving",
+      "frames": 4
+    },
+    {
+      "index": 4,
+      "state": "jumping",
+      "frames": 5
+    },
+    {
+      "index": 5,
+      "state": "failed",
+      "frames": 8
+    },
+    {
+      "index": 6,
+      "state": "waiting",
+      "frames": 6
+    },
+    {
+      "index": 7,
+      "state": "running",
+      "frames": 6
+    },
+    {
+      "index": 8,
+      "state": "review",
+      "frames": 6
+    }
+  ],
+  "note": "Separate yellow sparrow pet with round squat chick form; not a recolor of suzumidori."
+}
