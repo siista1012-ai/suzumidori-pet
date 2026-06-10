@@ -1,0 +1,11 @@
+{
+  "fileUrl": "https://www.figma.com/design/plIMkOoq3VBlwvdcAeXxBx",
+  "uploadedNodeIds": {
+    "ruriusagi-atlas.png": "7:2",
+    "ruriusagi-motion-board.png": "8:2",
+    "right-hop-strip.png": "9:2",
+    "left-hop-strip.png": "10:2",
+    "carrot-waiting-strip.png": "11:2"
+  },
+  "note": "Figma plan limit blocked one extra transparency-check upload; local QA PNGs are saved under qa/."
+}
