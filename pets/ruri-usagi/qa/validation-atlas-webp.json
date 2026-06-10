@@ -14,42 +14,42 @@
       "row": 0,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 18150
+      "nontransparent_pixels": 18453
     },
     {
       "state": "idle",
       "row": 0,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 18431
+      "nontransparent_pixels": 18405
     },
     {
       "state": "idle",
       "row": 0,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 18453
+      "nontransparent_pixels": 18319
     },
     {
       "state": "idle",
       "row": 0,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 18147
+      "nontransparent_pixels": 18428
     },
     {
       "state": "idle",
       "row": 0,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 18431
+      "nontransparent_pixels": 18642
     },
     {
       "state": "idle",
       "row": 0,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 18150
+      "nontransparent_pixels": 18741
     },
     {
       "state": "idle",
@@ -91,7 +91,7 @@
       "row": 1,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 18663
+      "nontransparent_pixels": 18655
     },
     {
       "state": "running-right",

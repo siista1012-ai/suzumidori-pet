@@ -9,7 +9,8 @@
   "codex_atlas_mapping": {
     "running-right": "right-hop frames 01-08",
     "running-left": "left-hop frames 01-08",
-    "waiting": "carrot-waiting frames 01,02,03,05,08,09"
+    "waiting": "carrot-waiting frames 01,02,03,05,08,09",
+    "idle": "carrot-waiting frames 01,02,03,05,08,09"
   },
   "transparent_rgb_residue_pixels_total": 0,
   "items": [
@@ -230,22 +231,6 @@
       "nontransparent_pixels": 18741
     },
     {
-      "motion": "figma_atlas_png",
-      "frame": null,
-      "width": 1536,
-      "height": 1872,
-      "transparent_rgb_residue_pixels": 0,
-      "nontransparent_pixels": 1006426
-    },
-    {
-      "motion": "spritesheet_webp",
-      "frame": null,
-      "width": 1536,
-      "height": 1872,
-      "transparent_rgb_residue_pixels": 0,
-      "nontransparent_pixels": 1006426
-    },
-    {
       "motion": "right_strip",
       "frame": null,
       "width": 1728,
@@ -268,6 +253,22 @@
       "height": 208,
       "transparent_rgb_residue_pixels": 0,
       "nontransparent_pixels": 166483
+    },
+    {
+      "motion": "figma_atlas_png",
+      "frame": null,
+      "width": 1536,
+      "height": 1872,
+      "transparent_rgb_residue_pixels": 0,
+      "nontransparent_pixels": 1007644
+    },
+    {
+      "motion": "spritesheet_webp",
+      "frame": null,
+      "width": 1536,
+      "height": 1872,
+      "transparent_rgb_residue_pixels": 0,
+      "nontransparent_pixels": 1007644
     }
   ]
 }

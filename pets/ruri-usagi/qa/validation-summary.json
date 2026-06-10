@@ -19,7 +19,8 @@
     "codexAtlasMapping": {
       "running-right": "right-hop frames 01-08",
       "running-left": "left-hop frames 01-08",
-      "waiting": "carrot-waiting frames 01,02,03,05,08,09"
+      "waiting": "carrot-waiting frames 01,02,03,05,08,09",
+      "idle": "carrot-waiting frames 01,02,03,05,08,09"
     }
   },
   "transparency": {
@@ -28,23 +29,5 @@
     "installedWebpTransparentRgbResiduePixels": 0,
     "motionAssetsTransparentRgbResiduePixelsTotal": 0
   },
-  "figma": {
-    "fileUrl": "https://www.figma.com/design/plIMkOoq3VBlwvdcAeXxBx",
-    "uploadedNodeIds": {
-      "ruriusagi-atlas.png": "7:2",
-      "ruriusagi-motion-board.png": "8:2",
-      "right-hop-strip.png": "9:2",
-      "left-hop-strip.png": "10:2",
-      "carrot-waiting-strip.png": "11:2"
-    },
-    "note": "Figma plan limit blocked one extra transparency-check upload; local QA PNGs are saved under qa/."
-  },
-  "paths": {
-    "spritesheet": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\spritesheet.webp",
-    "figmaAtlas": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\figma\\ruriusagi-atlas.png",
-    "motions": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\motions",
-    "motionContactSheet": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\qa\\motion-contact-sheet.png",
-    "transparencyCheck": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\qa\\transparency-check.png",
-    "motionTransparencyCheck": "C:\\Users\\issue\\Documents\\suzumidori-pet\\pets\\ruri-usagi\\qa\\motion-transparency-check.png"
-  }
+  "note": "Carrot waiting is now mapped to both idle and waiting so it appears during ordinary pet preview/idle states."
 }
